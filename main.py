@@ -1,4 +1,4 @@
-import cv2
+""" import cv2
 import mediapipe as mp
 
 # Inicializar MediaPipe Pose
@@ -64,4 +64,24 @@ while cap.isOpened():
         break
 
 cap.release()
-cv2.destroyAllWindows()
+cv2.destroyAllWindows() """
+
+import prueba_2
+import prueba_3
+
+def main():
+
+    print("Quieres cargar la cámara o una foto? (c/f): ", end="")
+    opcion = input().strip().lower()
+
+    if opcion == "c":
+        print("Ejecutando prueba_2...")
+        prueba_2.camara()  # Asumiendo que hay una función main en prueba_2.py
+    elif opcion == "f":
+        print("Ejecutando prueba_3...")
+        prueba_3.foto()  # Asumiendo que hay una función main en prueba_3.py
+    else:
+        print("Opción no válida. Por favor, elige 'c' para cámara o 'f' para foto.")
+
+if __name__ == "__main__":
+    main()
