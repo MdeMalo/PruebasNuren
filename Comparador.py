@@ -3,18 +3,17 @@ import json
 from typing import Dict, List
 import os
 
-def crear_archivo_notas():
-    """
-    Crea un archivo de notas en la carpeta actual con información sobre el uso del script.
-    """
-    with open("notas.txt", "w", encoding="utf-8") as f:
-        f.write("Notas sobre el uso del script:\n")
-        f.write("- Asegúrate de tener los archivos JSON en la ruta correcta.\n")
-        f.write("- El umbral de distancia se puede ajustar en la inicialización del comparador.\n")
-        f.write("- Los resultados se imprimirán en la consola y se pueden redirigir a un archivo si es necesario.\n")
-
-
 class RehabTechComparator:
+    def crear_archivo_notas():
+        """
+        Crea un archivo de notas en la carpeta actual con información sobre el uso del script.
+        """
+        with open("notas.txt", "w", encoding="utf-8") as f:
+            f.write("Notas sobre el uso del script:\n")
+            f.write("- Asegúrate de tener los archivos JSON en la ruta correcta.\n")
+            f.write("- El umbral de distancia se puede ajustar en la inicialización del comparador.\n")
+            f.write("- Los resultados se imprimirán en la consola y se pueden redirigir a un archivo si es necesario.\n")
+
     def evaluar_pose_global(self, distancias: Dict[str, float]) -> str:
         """
         Evalúa si la pose es correcta en términos generales.
@@ -28,14 +27,14 @@ class RehabTechComparator:
             return "No se detectaron puntos válidos."
 
         porcentaje_error = total_errores / total_puntos
+        print(f"\n  Porcentaje de error: {porcentaje_error}")
 
         if porcentaje_error < 0.1:
             return "Excelente pose"
-        elif porcentaje_error < 0.25:
+        elif porcentaje_error < 0.3:
             return "Pose aceptable"
         else:
             return "Pose incorrecta"
-
 
     def __init__(self, umbral_distancia: float = 0.1):
         """
@@ -96,9 +95,9 @@ class RehabTechComparator:
 
 # Ejemplo rápido de uso:
 if __name__ == "__main__":
-    crear_archivo_notas()
+    RehabTechComparator.crear_archivo_notas()
     # Cargar tus JSON (puedes adaptar la ruta o usar tus variables)
-    with open("C:\\Users\\maloj\\OneDrive\\Documents\\Pruebas\\Ejemplos\\pose_landmarks_1753750511_IMG.json", "r",  encoding="utf-8") as f1, open("C:\\Users\\maloj\\OneDrive\\Documents\\Pruebas\\pose_capturas\\landmarks_1753750593_CAMARA.json", "r",  encoding="utf-8") as f2:
+    with open("C:\\Users\\maloj\\OneDrive\\Documents\\Pruebas\\Ejemplos\\pose_landmarks_1753750511_IMG.json", "r",  encoding="utf-8") as f1, open("C:\\Users\\maloj\\OneDrive\\Documents\\Pruebas\\pose_capturas\\landmarks_1753835756_CAMARA.json", "r",  encoding="utf-8") as f2:
         json1 = json.load(f1)
         json2 = json.load(f2)
 

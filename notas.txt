@@ -4,96 +4,88 @@ Notas sobre el uso del script:
 - Los resultados se imprimirán en la consola y se pueden redirigir a un archivo si es necesario.
 
 Distancias por punto:
-  Nariz: 0.5486
-  Ojo_Izquierdo_Interno: 0.4729
-  Ojo_Izquierdo: 0.4765
-  Ojo_Izquierdo_Externo: 0.4812
-  Ojo_Derecho_Interno: 0.4667
-  Ojo_Derecho: 0.4693
-  Ojo_Derecho_Externo: 0.4733
-  Oreja_Izquierda: 0.4677
-  Oreja_Derecha: 0.4846
-  Hombro_Izquierdo: 0.6475
-  Hombro_Derecho: 0.8192
-  Codo_Izquierdo: 0.4723
-  Codo_Derecho: 0.9709
-  Muñeca_Izquierda: 0.3279
-  Muñeca_Derecha: 1.0018
-  Meñique_Izquierdo: 0.4780
-  Meñique_Derecho: 1.0229
-  Índice_Izquierdo: 0.5520
-  Índice_Derecho: 1.0252
-  Pulgar_Izquierdo: 0.4729
-  Pulgar_Derecho: 1.0226
-  Cadera_Izquierda: 1.4514
-  Cadera_Derecha: 1.4714
-  Rodilla_Izquierda: 2.1486
-  Rodilla_Derecha: 2.1755
-  Tobillo_Izquierdo: 2.7273
-  Tobillo_Derecho: 2.8330
-  Talón_Izquierdo: 2.8144
-  Talón_Derecho: 2.9136
+  Nariz: 0.3471
+  Ojo_Izquierdo_Interno: 0.3393
+  Ojo_Izquierdo: 0.3393
+  Ojo_Izquierdo_Externo: 0.3394
+  Ojo_Derecho_Interno: 0.3384
+  Ojo_Derecho: 0.3382
+  Ojo_Derecho_Externo: 0.3380
+  Oreja_Izquierda: 0.2504
+  Oreja_Derecha: 0.2468
+  Hombro_Izquierdo: 0.1655
+  Hombro_Derecho: 0.1543
+  Codo_Izquierdo: 0.1860
+  Codo_Derecho: 0.1867
+  Muñeca_Izquierda: 0.3212
+  Muñeca_Derecha: 0.3546
+  Meñique_Izquierdo: 0.3652
+  Meñique_Derecho: 0.3948
+  Índice_Izquierdo: 0.3865
+  Índice_Derecho: 0.4192
+  Pulgar_Izquierdo: 0.3421
+  Pulgar_Derecho: 0.3747
+  Cadera_Izquierda: 0.0342
+  Cadera_Derecha: 0.0165
+  Rodilla_Izquierda: 0.0974
+  Rodilla_Derecha: 0.0651
+  Tobillo_Izquierdo: 0.0548
+  Tobillo_Derecho: 0.0684
+  Talón_Izquierdo: 0.0543
+  Talón_Derecho: 0.0710
 
 Errores detectados:
-  Nariz: desviación 0.5486
-  Ojo_Izquierdo_Interno: desviación 0.4729
-  Ojo_Izquierdo: desviación 0.4765
-  Ojo_Izquierdo_Externo: desviación 0.4812
-  Ojo_Derecho_Interno: desviación 0.4667
-  Ojo_Derecho: desviación 0.4693
-  Ojo_Derecho_Externo: desviación 0.4733
-  Oreja_Izquierda: desviación 0.4677
-  Oreja_Derecha: desviación 0.4846
-  Hombro_Izquierdo: desviación 0.6475
-  Hombro_Derecho: desviación 0.8192
-  Codo_Izquierdo: desviación 0.4723
-  Codo_Derecho: desviación 0.9709
-  Muñeca_Izquierda: desviación 0.3279
-  Muñeca_Derecha: desviación 1.0018
-  Meñique_Izquierdo: desviación 0.4780
-  Meñique_Derecho: desviación 1.0229
-  Índice_Izquierdo: desviación 0.5520
-  Índice_Derecho: desviación 1.0252
-  Pulgar_Izquierdo: desviación 0.4729
-  Pulgar_Derecho: desviación 1.0226
-  Cadera_Izquierda: desviación 1.4514
-  Cadera_Derecha: desviación 1.4714
-  Rodilla_Izquierda: desviación 2.1486
-  Rodilla_Derecha: desviación 2.1755
-  Tobillo_Izquierdo: desviación 2.7273
-  Tobillo_Derecho: desviación 2.8330
-  Talón_Izquierdo: desviación 2.8144
-  Talón_Derecho: desviación 2.9136
+  Nariz: desviación 0.3471
+  Ojo_Izquierdo_Interno: desviación 0.3393
+  Ojo_Izquierdo: desviación 0.3393
+  Ojo_Izquierdo_Externo: desviación 0.3394
+  Ojo_Derecho_Interno: desviación 0.3384
+  Ojo_Derecho: desviación 0.3382
+  Ojo_Derecho_Externo: desviación 0.3380
+  Oreja_Izquierda: desviación 0.2504
+  Oreja_Derecha: desviación 0.2468
+  Hombro_Izquierdo: desviación 0.1655
+  Hombro_Derecho: desviación 0.1543
+  Codo_Izquierdo: desviación 0.1860
+  Codo_Derecho: desviación 0.1867
+  Muñeca_Izquierda: desviación 0.3212
+  Muñeca_Derecha: desviación 0.3546
+  Meñique_Izquierdo: desviación 0.3652
+  Meñique_Derecho: desviación 0.3948
+  Índice_Izquierdo: desviación 0.3865
+  Índice_Derecho: desviación 0.4192
+  Pulgar_Izquierdo: desviación 0.3421
+  Pulgar_Derecho: desviación 0.3747
 
 Reporte promedio acumulado:
-  Nariz: promedio de desviación 0.5486
-  Ojo_Izquierdo_Interno: promedio de desviación 0.4729
-  Ojo_Izquierdo: promedio de desviación 0.4765
-  Ojo_Izquierdo_Externo: promedio de desviación 0.4812
-  Ojo_Derecho_Interno: promedio de desviación 0.4667
-  Ojo_Derecho: promedio de desviación 0.4693
-  Ojo_Derecho_Externo: promedio de desviación 0.4733
-  Oreja_Izquierda: promedio de desviación 0.4677
-  Oreja_Derecha: promedio de desviación 0.4846
-  Hombro_Izquierdo: promedio de desviación 0.6475
-  Hombro_Derecho: promedio de desviación 0.8192
-  Codo_Izquierdo: promedio de desviación 0.4723
-  Codo_Derecho: promedio de desviación 0.9709
-  Muñeca_Izquierda: promedio de desviación 0.3279
-  Muñeca_Derecha: promedio de desviación 1.0018
-  Meñique_Izquierdo: promedio de desviación 0.4780
-  Meñique_Derecho: promedio de desviación 1.0229
-  Índice_Izquierdo: promedio de desviación 0.5520
-  Índice_Derecho: promedio de desviación 1.0252
-  Pulgar_Izquierdo: promedio de desviación 0.4729
-  Pulgar_Derecho: promedio de desviación 1.0226
-  Cadera_Izquierda: promedio de desviación 1.4514
-  Cadera_Derecha: promedio de desviación 1.4714
-  Rodilla_Izquierda: promedio de desviación 2.1486
-  Rodilla_Derecha: promedio de desviación 2.1755
-  Tobillo_Izquierdo: promedio de desviación 2.7273
-  Tobillo_Derecho: promedio de desviación 2.8330
-  Talón_Izquierdo: promedio de desviación 2.8144
-  Talón_Derecho: promedio de desviación 2.9136
+  Nariz: promedio de desviación 0.3471
+  Ojo_Izquierdo_Interno: promedio de desviación 0.3393
+  Ojo_Izquierdo: promedio de desviación 0.3393
+  Ojo_Izquierdo_Externo: promedio de desviación 0.3394
+  Ojo_Derecho_Interno: promedio de desviación 0.3384
+  Ojo_Derecho: promedio de desviación 0.3382
+  Ojo_Derecho_Externo: promedio de desviación 0.3380
+  Oreja_Izquierda: promedio de desviación 0.2504
+  Oreja_Derecha: promedio de desviación 0.2468
+  Hombro_Izquierdo: promedio de desviación 0.1655
+  Hombro_Derecho: promedio de desviación 0.1543
+  Codo_Izquierdo: promedio de desviación 0.1860
+  Codo_Derecho: promedio de desviación 0.1867
+  Muñeca_Izquierda: promedio de desviación 0.3212
+  Muñeca_Derecha: promedio de desviación 0.3546
+  Meñique_Izquierdo: promedio de desviación 0.3652
+  Meñique_Derecho: promedio de desviación 0.3948
+  Índice_Izquierdo: promedio de desviación 0.3865
+  Índice_Derecho: promedio de desviación 0.4192
+  Pulgar_Izquierdo: promedio de desviación 0.3421
+  Pulgar_Derecho: promedio de desviación 0.3747
+  Cadera_Izquierda: promedio de desviación 0.0342
+  Cadera_Derecha: promedio de desviación 0.0165
+  Rodilla_Izquierda: promedio de desviación 0.0974
+  Rodilla_Derecha: promedio de desviación 0.0651
+  Tobillo_Izquierdo: promedio de desviación 0.0548
+  Tobillo_Derecho: promedio de desviación 0.0684
+  Talón_Izquierdo: promedio de desviación 0.0543
+  Talón_Derecho: promedio de desviación 0.0710
 
 Evaluación global de la pose: Pose incorrecta
