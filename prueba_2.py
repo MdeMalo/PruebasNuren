@@ -100,9 +100,16 @@ def camara():
                 angulos = {}
                 def agrega_angulo(nombre, a, b, c):
                     if all(p in puntos for p in [a, b, c]):
-                        angulo = calcular_angulo(puntos[a], puntos[b], puntos[c])
-                        if angulo is not None:
-                            angulos[nombre] = round(angulo, 2)
+                        vis_minima = 0.8  # Umbral mínimo de visibilidad
+                        visibilidades = [
+                            landmarks_dict[a]['visibilidad'],
+                            landmarks_dict[b]['visibilidad'],
+                            landmarks_dict[c]['visibilidad']
+                        ]
+                        if all(v >= vis_minima for v in visibilidades):
+                            angulo = calcular_angulo(puntos[a], puntos[b], puntos[c])
+                            if angulo is not None:
+                                angulos[nombre] = round(angulo, 2)
 
                 agrega_angulo("Codo_Izquierdo", "Hombro_Izquierdo", "Codo_Izquierdo", "Muñeca_Izquierda")
                 agrega_angulo("Codo_Derecho", "Hombro_Derecho", "Codo_Derecho", "Muñeca_Derecha")
